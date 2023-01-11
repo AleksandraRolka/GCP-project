@@ -85,3 +85,4 @@ jobs:
             --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:${GITHUB_SHA::7}" \
             --platform "managed" \
             --allow-unauthenticated
+            --port 8080
