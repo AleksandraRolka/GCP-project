@@ -11,5 +11,11 @@ WORKDIR /etc/nginx
 ADD nginx.conf /etc/nginx/nginx.conf
 
 COPY --from=build /app/build /usr/share/nginx/html
-ENV PORT 8080
-CMD ["nginx", "-g", "daemon off;"]
+
+RUN npm install
+
+EXPOSE 8080
+ENV HOST=0.0.0.0
+ENV PORT=8080
+
+CMD [ "npm", "run", "start" ]
