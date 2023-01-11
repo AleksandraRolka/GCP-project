@@ -2,7 +2,7 @@ FROM node:latest as build
 
 WORKDIR /app
 
-COPY . ./
+COPY ./react-app ./
 
 # ---
 FROM fholzer/nginx-brotli:latest
