@@ -1,5 +1,4 @@
 name: Google Cloud Run Deploy
-# https://github.com/google-github-actions/setup-gcloud
 on:
   push:
     branches:
@@ -82,6 +81,4 @@ jobs:
           gcloud run deploy "$SERVICE_NAME" \
             --region "$RUN_REGION" \
             --image "gcr.io/$PROJECT_ID/$SERVICE_NAME" \
-            --platform "managed" \
             --allow-unauthenticated
-            --port 8080
