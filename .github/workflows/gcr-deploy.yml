@@ -8,7 +8,7 @@ on:
 env:
   PROJECT_ID: gcp-university-project
   RUN_REGION: us-central1
-  SERVICE_NAME: GCP-project
+  SERVICE_NAME: gcp-project-app
 
 jobs:
   build:
@@ -73,7 +73,6 @@ jobs:
       - name: Build & Push
         run: |-
           gcloud builds submit \
-            --quiet \
             --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:${GITHUB_SHA::7}" \
             .docker/
 
