@@ -74,8 +74,8 @@ jobs:
         run: |-
           gcloud builds submit \
             --quiet \
-            --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
-            .docker/
+            --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:${GITHUB_SHA::7}" \
+            ./.docker
 
       # Deploy image to Cloud Run
       - name: Deploy GCR
@@ -83,6 +83,6 @@ jobs:
           gcloud run deploy "$SERVICE_NAME" \
             --quiet \
             --region "$RUN_REGION" \
-            --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA" \
+            --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:${GITHUB_SHA::7}" \
             --platform "managed" \
             --allow-unauthenticated
