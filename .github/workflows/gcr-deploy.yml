@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: ${{ secrets.GCR_PROJECT }}
+  PROJECT_ID: gcp-university-project
   RUN_REGION: us-central1
   SERVICE_NAME: GCP-project
 
