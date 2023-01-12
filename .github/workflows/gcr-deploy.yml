@@ -36,7 +36,7 @@ jobs:
           CI: true
 
       - name: Build Development
-        run: yarn build
+        run: cd simple-react-app/ && yarn build
 
       - name: Archive Production Artifact
         uses: actions/upload-artifact@main
