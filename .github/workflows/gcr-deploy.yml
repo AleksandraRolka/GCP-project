@@ -31,7 +31,7 @@ jobs:
           restore-keys: |
             nodeModules-
       - name: Install dependencies
-        run: yarn install simple-react-app/ --frozen-lockfile
+        run: yarn add simple-react-app/ --frozen-lockfile
         env:
           CI: true
 
