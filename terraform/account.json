@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gcp-university-project",
+  "private_key_id": "e99c0987f9077a73b8f60d0468978a8129e0ea07",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZGzR9+GTURkIr\nvfPiW4HDJxVRavlU5gAQ/RpGeex3Ux3dBaCFfsR4/lypRjx8/5QuyboDSJ/tNye4\nJGgoSc94+JkJuFYaA6fAFzf4TrrDtro1toVEYZUionkOUEpauh/UAPz3Sr9V8XvD\nsJYW6/P1nn+D9d+WU49KZ+Z4myIpeMGcyfJXpydGwa5RwbItJg3d5PjdbDmQJh70\n1K8ULrwND8E645p8tPw8exbf4A98ba/tgGaT3tvFfF7imr4/hbn83k2qLuBo0dff\nlYhbwz2zLpezU+UTpYgEIAi0OhBFbChtCOiV4/+97+gBAGU/6nofdNIoT9PJP8x3\nBwKGQW5DAgMBAAECggEAAb847y4sLFp1u0GcrJGYlV+JSmCbBrObtZXqTuhFF/Tj\nC2qj8uRICzGrPEimYQnjhFDd72mDg1owHXn8TEMZoG9glfAqA+nUnvXXJd09QCoC\nFurzci86ADBh+MwyKZFIiYuFDkK43XZkkA5pZtzWyyIGxk7mrtk2O49S79HJVMmm\nEIFyJ5Tzx6TeVRmHnWvKNedwQqAFMdhw8rp/aNreRFNU8fVAeCfxlbYuaU49buD8\nFN/ux+4vBkbiLzchkNDWrrbi6Nmyz62ebyOLdJ980RmK8buCdtDVF9A+J5ZE3qiF\ngXUrYE2aAfiVtmb4QY8w9VhW3BkEFshwrtU2ZdZulQKBgQDQ14phRv1gfLCj4PiW\nNA3VBOw8XLMCJrcMLTWn9+lZLxlBghFWFJtukuWH1mKpjoKIrVcociWY1t+14y6Z\nfVaBTofELqlSuEbmisqbzWOPydVtpihkoO/aLpPFAD0tHek6AheM8nBwVNtfCI8Z\nOMrnkAxBYOILZBM6j1017SiplQKBgQC7rcUM6SjCmW1ojBLV27XHDLAaZ9T7ysjD\nyXMDhHGz1qRdrohSQRPxyzbI/tmNv1CGcimz8efJadagmdV3Azz29Q6zPaSHeMn+\nTQxaUVuwjAjFjXeIW3m6CQdyJiMGS0ARtfQ6GSCnyjNuDU/jgU8tPQWO2CX/b0mo\nChSIFm2ydwKBgH7Ut9SWIWEMuNX91dqaqF/bSoDqJ0jCLF63wiNNWyjvgp4XGOI3\nR6IikkUpvOeOhdXtt8X3dL/alyhGXVGYHgYPpEJPuENlaKGwXpW6aaG0iOq7g0KB\nvsi5isKUf5K73J1/EcBmqESANG4Fq6o8pHV3NQorhXw3fboNwSTz78L1AoGAayJY\nAPW8KdHxjaOgQOpJyxWoFXq+LvnkPzdo61IYogNeEohGE0ZI/1b0sCoiwHK8ofLb\ncXgey3Aab9VA8M4taAAd4x3GJPtDu2H6MjiNMavOeg82c+VcCGGNGZFBnx8ntLR8\ndQnRBVc8oo8A0qsHKpjR6mfi0PyTPFR8we6jsiMCgYEAv8dca5Xq7whp+hbaJOJb\ntkevcpascBw+gbZkVhMgHrB9HlpZ6DyEJ1h+BPZhls1Ty64Ghc6BrXv2mdaskWbo\ni354LsVQhb+lUtt1u+p3KfInTQ3rv3/eOhetw9B9YXr0zaWgJvy0f5NMG4qBxCz9\njbbeiQm0slqFp9e34rt9LaQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github@gcp-university-project.iam.gserviceaccount.com",
+  "client_id": "109354334923471873881",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github%40gcp-university-project.iam.gserviceaccount.com"
+}
