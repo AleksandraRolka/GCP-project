@@ -23,15 +23,15 @@ jobs:
         with:
           node-version: "16.x"
 
-      # - name: Use cached node_modules
-      #   uses: actions/cache@master
-      #   with:
-      #     path: node_modules
-      #     key: nodeModules-${{ hashFiles('**/yarn.lock') }}
-      #     restore-keys: |
-      #       nodeModules-
+      - name: Use cached node_modules
+        uses: actions/cache@master
+        with:
+          path: simple-react-app/node_modules
+          key: nodeModules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            nodeModules-
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --cwd simple-react-app/ --frozen-lockfile
         env:
           CI: true
 
