@@ -31,12 +31,12 @@ jobs:
           restore-keys: |
             nodeModules-
       - name: Install dependencies
-        run: yarn add simple-react-app/ --frozen-lockfile
+        run: cd simple-react-app/ && yarn install --frozen-lockfile && cd ..
         env:
           CI: true
 
       - name: Build Development
-        run: yarn --cwd simple-react-app/ build
+        run: cd simple-react-app/ && yarn build && cd ..
 
       - name: Archive Production Artifact
         uses: actions/upload-artifact@main
