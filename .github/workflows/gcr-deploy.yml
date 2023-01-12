@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: build
-          path: build
+          path: simple-react-app/build
 
   deploy-gcr:
     name: Deploy to GCR
