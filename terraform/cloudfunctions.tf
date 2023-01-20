@@ -1,6 +1,7 @@
 resource "google_storage_bucket" "bucket" {
-  name = "fc1-source-storage"
-  location = "EU"
+  name = "cf2-source-storage"
+  location = "US"
+  force_destroy = true
 }
 
 resource "google_storage_bucket_object" "archive" {
@@ -10,16 +11,16 @@ resource "google_storage_bucket_object" "archive" {
 }
 
 resource "google_cloudfunctions_function" "function" {
-  name        = "first-test-sql-insert-func"
+  name        = "students-group-api"
   description = "-"
   runtime     = "python38"
 
-  available_memory_mb   = 128
+  available_memory_mb   = 256
   source_archive_bucket = google_storage_bucket.bucket.name
   source_archive_object = google_storage_bucket_object.archive.name
   trigger_http          = true
   timeout               = 60
-  entry_point           = "insertanimal"
+  entry_point           = "student_membership"
 }
 
 # IAM entry for a single user to invoke the function
