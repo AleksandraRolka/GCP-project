@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "bucket" {
   name = "cf2-source-storage"
-  location = "US"
+  location = "us-central1"
   force_destroy = true
 }
 
