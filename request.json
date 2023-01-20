@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "CLOUD_STORAGE_IMAGE_URI"
+        }
+      },
+      "features": [
+        {
+          "type": "TEXT_DETECTION"
+        }
+      ]
+    }
+  ]
+}

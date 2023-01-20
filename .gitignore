@@ -26,3 +26,5 @@ yarn-error.log*
 
 # terraform gsp credentials
 terraform/account.json
+terraform/.terraform/
+terraform/.terraform.*

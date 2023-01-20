@@ -9,6 +9,6 @@ terraform {
 
 provider "google" {
   credentials = "${file(var.gcp-creds)}"
-  project = "gcp-university-project"
-  region  = "us-central1"
+  project = "${var.project_id}"
+  region  = "${var.region}"
 }
